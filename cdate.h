@@ -36,9 +36,15 @@ public:
     } else
       year = 1900;
   }
-  int getDay() const { return day; }
-  int getMonth() const { return month; }
-  int getYear() const { return year; }
+  int getDay() const {
+    return day;
+  }
+  int getMonth() const { 
+    return month;
+  }
+  int getYear() const {
+    return year;
+  }
   void displayDate() const {
     cout << day << " / " << month << " / " << year << endl;
   }
